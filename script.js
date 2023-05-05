@@ -7,7 +7,7 @@ const words = [
   "lucy",
   "world",
   "friends",
-  "clock",
+  "cola",
   "tv"
 ];
 
