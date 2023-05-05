@@ -1,0 +1,85 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+#title {
+  color: #ff6ec7;
+  text-align: center;
+  font-size: 4rem;
+  animation: neon-pink 0.5s ease-in-out alternate infinite;
+}
+
+@keyframes neon-pink {
+  from {
+    text-shadow: 0 0 10px #ff6ec7, 0 0 20px #ff6ec7, 0 0 30px #ff6ec7;
+  }
+  to {
+    text-shadow: 0 0 20px #ff6ec7, 0 0 30px #ff6ec7, 0 0 40px #ff6ec7;
+  }
+}
+
+#word-container {
+  margin: 2rem auto;
+  font-size: 3rem;
+  text-align: center;
+  letter-spacing: 1rem;
+}
+
+#keyboard-container {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+#keyboard-container button {
+  display: inline-block;
+  font-size: 2rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+#keyboard-container button:disabled {
+  background-color: gray;
+  color: white;
+  cursor: not-allowed;
+}
+
+#status-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem auto;
+  max-width: 50%;
+  text-align: center;
+}
+
+#fails {
+  font-size: 2rem;
+}
+
+#new-game-button {
+  font-size: 2rem;
+  border: 0.2rem solid #ff6ec7;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+#new-game-button:hover {
+  background-color: #ff6ec7;
+  color: black;
+}
+
+#new-game-button:focus {
+  outline: none;
+}
+
+#new-game-button:active {
+  transform: translateY(2px);
+}
