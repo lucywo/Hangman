@@ -1,14 +1,14 @@
 const words = [
-  "javascript",
-  "html",
-  "css",
-  "nodejs",
-  "mongodb",
-  "react",
-  "angular",
-  "vue",
-  "bootstrap",
-  "webpack"
+  "flower",
+  "style",
+  "sun",
+  "computer",
+  "light",
+  "lucy",
+  "world",
+  "friends",
+  "clock",
+  "tv"
 ];
 
 let word = "";
@@ -95,3 +95,4 @@ function checkGameWon() {
 newGameButton.addEventListener("click", setupGame);
 
 setupGame();
+
